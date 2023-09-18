@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: antiquewhite;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.container-container{
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 0px 30px hsl(216, 50%, 4%);
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+.img:hover{
+    cursor: pointer;
+    filter: url(../images/icon-view.svg);
+    background-color: aqua;
+}
+
+.text{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.eth-clock{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.eth-svg{
+    display: flex;
+}
+
+.clock{
+    display: flex;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+h3:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+b{
+    color: hsl(215, 51%, 70%);
+}
+
+b:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    padding-left: 10px;
+}
+
+.author{
+    margin-top: 25px;
+    padding-top: 5px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 1px solid hsl(215, 51%, 70%);
+}
+
+.author-avatar{
+    height: 30px;
+    border: 1px solid antiquewhite;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.attribution{
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
